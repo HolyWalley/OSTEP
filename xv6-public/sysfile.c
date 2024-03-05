@@ -81,7 +81,7 @@ sys_read(void)
   return fileread(f, p, n);
 }
 
-int sys_readcount(void)
+int sys_getreadcount(void)
 {
   return readcount;
 }
